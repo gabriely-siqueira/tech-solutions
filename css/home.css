@@ -1,0 +1,55 @@
+.home {
+  background: url(../images/home.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 110vh;
+  display: flex;
+  align-items: center;
+}
+
+.home .content {
+  max-width: 55rem;
+}
+
+.home .content h3 {
+  font-size: 6rem;
+  color: var(--white);
+  line-height: 1.2;
+}
+
+.home .content h3 span {
+  color: var(--secondary);
+}
+
+.home .content p {
+  font-size: 1.5rem;
+  color: var(--white);
+  line-height: 2;
+  padding: 1rem 0;
+}
+
+.home .share {
+  padding-top: 2rem;
+  text-align: center;
+  margin-right: 25.5rem;
+}
+
+.home .share a {
+  font-size: 2rem;
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  color: var(--white);
+  background: var(--primary);
+  margin: .3rem;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease; 
+}
+
+.home .share a:hover {
+  color:var(--primary);
+  background: var(--white);
+}
+
+
